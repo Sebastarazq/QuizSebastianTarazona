@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace MiPrimeraApp
 {
-    public partial class Home : Form
+    public partial class Home2 : Form
     {
-        public Home()
+        public Home2()
         {
             InitializeComponent();
-
-        }
-
-        private void btnSaved_Click(object sender, EventArgs e)
-        {
-            Home2 f = new Home2();
-            f.lbldatos.Text = rtxtResults.Text;
-            this.Hide();
-            f.ShowDialog();
         }
     }
 }
